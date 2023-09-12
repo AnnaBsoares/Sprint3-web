@@ -1,0 +1,37 @@
+@media(max-width: 425px) {
+    .Duvidas {
+        padding: 1rem 1rem 0 1rem !important;
+    }
+
+    .doubts hr {
+        width: auto;
+    }
+    .doubts {
+        width: 20rem !important;
+    }
+}
+
+.Duvidas {
+    padding: 5rem 10rem 0 10rem;
+}
+
+.DuvidasBg {
+    background-color: #F6F6F6;
+}
+
+.doubts li {
+    transition: 0.2s;
+    list-style-image: url('../assets/Arrow.png');
+    color: black;
+    padding: 1rem;
+}
+
+.doubts li:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #c4edff;
+}
+
+.doubts {
+    width: 30rem;
+}

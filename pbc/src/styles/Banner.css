@@ -1,0 +1,92 @@
+@media(max-width){
+    .img,
+    .textoBanner {
+        width: 5rem !important;
+        margin-bottom: 2rem;
+    }
+
+    .bannerPrincipal{
+        padding: 1rem !important;
+        width: 0.4rem !important;
+    }
+
+    h2  {
+        font-size: 1rem !important;
+    }
+}
+
+@media(max-width: 768px)  {
+    .bannerPrincipal    {
+        padding: 8rem !important;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .img,
+    .textoBanner {
+        margin-bottom: 2rem;
+    }
+
+    .button{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 1440px)  {
+    h2 {
+        font-size: 3rem;
+    }
+
+    .img,
+    .textoBanner {
+        width: 25rem !important;
+    }
+
+    .button {
+        width: 20rem !important;
+    }
+
+}
+
+.bannerPrincipal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A0D34;
+    color: #fff;
+    padding: 10rem;
+}
+
+.bannerPrincipal div {
+    display: flex;
+    flex-direction: column;
+}
+
+.img,
+.textoBanner {
+    width: 40rem;
+}
+
+.textoBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+}
+
+.button {
+    transition: 0.2s;
+    background-color: #003187;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 30rem;
+    border-radius: 10rem;
+    border: solid 5px #003187;
+}
+
+.button:hover {
+    transition: 0.2s;
+    background-color: #005eff3c;
+    cursor: pointer;
+    border: solid 5px #024ed2;
+}

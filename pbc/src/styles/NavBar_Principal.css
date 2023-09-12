@@ -1,0 +1,146 @@
+@media(max-width:425px){
+    .upperHeader{
+        padding: 1.5rem !important;
+    }
+    
+    .upperNav{
+        display: none !important;
+    }
+
+    .downHeader{
+        display: none !important;
+    }
+
+    .upperHeader img    {
+        width: 2rem !important;
+    }
+}
+
+@media(max-width:768px){
+    h3{
+        font-size: 1rem;
+    }
+
+    .imgSwitch  {
+        padding: 1.5rem !important;
+    }
+}
+
+/* Header superior */
+
+.header div {
+    display: flex;
+}
+
+.logo img   {
+    width: 3rem;
+    height: min-content;
+}
+
+.login img, .login p {
+    display: flex;
+    align-items: center;
+    height: min-content;
+    margin-right: 1rem;
+}
+
+.login  {
+    align-items: center;
+}
+
+.login  img {
+    width: 3rem;
+}
+
+.upperHeader    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2rem;
+    background-color: #FAFAFA;
+    border-bottom: solid 1px #CACACA;
+}
+
+ul li, ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:#949191;;
+    font-size: 0.9em;
+    margin-right: 22px;
+}
+
+ul li   {
+    margin-left: 2.5rem;
+}
+
+.nav    {
+    display: flex;
+    align-items: center;
+}
+
+.logo   {
+    align-items: center;
+}
+
+.logo div {
+    margin-right: 1rem;
+}
+
+.porto  {
+    color: #00A2FF;
+    margin-right: 0.5rem;
+}
+
+/* Header inferior */
+
+.downHeader {
+    background-color: #F0F0F0;
+}
+
+.downHeader a {    
+    display: flex;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    padding: 2rem;
+    transition: 0.2s;
+    scroll-behavior: smooth;
+    scroll-padding-block: 10rem;
+}
+
+.downHeader a:hover   {
+    transition: 0.2s;
+    color: #F0F0F0;
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
+
+.downHeader div img {
+    width: 1rem;
+    height: min-content;
+    margin-left: 1rem;
+}
+
+.imgSwitch .arrow2   {
+    transition: 0.2s;
+    display: none;
+}
+
+.imgSwitch .arrow   {
+    transition: 0.2s;
+    display: block;
+}
+
+.imgSwitch:hover .arrow2   {
+    transition: 0.2s;
+    display: block;
+}
+
+.imgSwitch:hover .arrow   {
+    transition: 0.2s;
+    display: none;
+}
+
+.line{
+    background: #D9D9D9;
+}

@@ -1,0 +1,35 @@
+@media(max-width:425px) {
+    .logo img {
+        width: 2rem;
+    }
+
+    .rodapeLogo h3 {
+        display: none;
+    }
+
+    .footerTopics a {
+        margin-right: 1rem !important;
+    }
+}
+
+.logo,
+.logo div {
+    display: flex;
+    align-items: center;
+}
+
+.Rodape {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #CACACA;
+}
+
+.footerTopics {
+    display: flex;
+}
+
+.footerTopics a {
+    text-decoration: underline;
+    color: #136492;
+}

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Jost:wght@500&display=swap');
+
+@media(max-width: 425px){
+
+    .card p{
+        font-size: medium;
+    }
+
+    .userData_firstBox img  {
+        width: 5rem;
+        margin-right: 2rem;
+    }
+
+    .userData_secondBox   h2{
+        display: none;
+    }
+
+    .userData   {
+        display: flex;
+        align-items: center !important;
+    }
+
+    .inputBox label {
+        position: relative;
+        left: 20px;
+    }
+
+    .inputBox input {
+        width: 15rem !important;
+        padding-block: 15px;
+        padding-left: 20px;
+        position: relative;
+        right: 0px !important;
+    }
+
+    .userData_firstBox  {
+        display: flex;
+        text-align: right;
+        justify-content: space-between !important;
+        flex-direction: row !important;
+    }
+
+    .bikeStatus {
+        display: none;
+    }
+
+    .bikeData div:nth-child(2){
+        display: none;
+    }
+
+    .userData_secondBox  {
+        text-align: start !important;
+        margin-left: 0 !important;
+    }
+
+    .Account h2 {
+        font-size: 2rem;
+    }
+
+    .userData   {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:768px) {
+
+    .newCard    img{
+        margin-inline: 0 !important;
+        margin-right: 1rem !important;
+    }
+
+    .line {
+        display: none !important;
+    }
+
+    .cards  {
+        display: flex;
+        align-items: flex-start !important;
+        flex-direction: column;
+    }
+
+    .userData_firstBox h2 {
+        margin-left: 0 !important;
+    }
+
+    .userData_firstBox  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userData_secondBox  h2{
+        text-align: end;
+        margin-left: 0 !important;
+    }
+
+    .userData_firstBox img {
+        min-width: 10rem !important;
+    }
+
+    section .mid {
+        padding: 2rem !important;
+    }
+}
+
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    font-size: 20px;
+}
+
+section .mid {
+    padding-inline: 15rem;
+    margin-block: 5rem;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.line {
+    width: 1px;
+    height: 4rem;
+    background-color: black;
+}
+
+/* Primeira sessão */
+
+.inputBox input {
+    border: none;
+    background-color: #EDEDED;
+    width: 20rem;
+    padding-block: 15px;
+    padding-left: 20px;
+    font-size: large;
+    position: relative;
+    right: 20px;
+    border-radius: 10rem;
+}
+
+.inputBox ::placeholder {
+    font-size: large;
+}
+
+.inputBox {
+    margin-block: 1rem;
+}
+
+.inputBox img {
+    position: relative;
+    top: 8px;
+    right: 15px;
+}
+
+.inputBox div {
+    background-color: #EDEDED;
+    border-radius: 10rem;
+}
+
+.userData_firstBox img {
+    min-width: 20rem;
+}
+
+.userData {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.userData_firstBox {
+    display: flex;
+    align-items: center;
+}
+
+.userData_firstBox h2 {
+    margin-left: 3rem;
+}
+
+.userData_secondBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.userData_secondBox h2 {
+    margin-bottom: 5rem;
+}
+
+/* Segunda sessão */
+
+.newCard,
+.newBike {
+    display: flex;
+    align-items: center;
+}
+
+.new img {
+    margin-inline: 1rem;
+}
+
+.newBike img {
+    margin-right: 1rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card div {
+    margin-right: 1rem;
+}
+
+.card div:last-child {
+    display: flex;
+}
+
+/* Terceira sessão */
+
+.userBike {
+    display: flex;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+.bikeData {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.userBike div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.userBike div:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.userBike div:first-child {
+    margin-left: 0rem;
+}
+
+.view {
+    margin: 0;
+    padding: 0
+}
+
+.view {
+    display: flex;
+}
+
+.bikePreview {
+    margin-left: 1rem !important;
+}

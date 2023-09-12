@@ -1,0 +1,66 @@
+@media(max-width:425px) {
+
+    .cartoes {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        padding: 1rem 1rem 1rem 1rem !important;
+    }
+}
+
+@media(max-width:768px) {
+    .imgCartao {
+        display: none;
+    }
+
+    .cartoes {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        padding: 10rem 10rem 10rem 10rem;
+    }
+
+    .cartoes div {
+        display: flex;
+        text-align: center;
+        padding-right: 0rem !important;
+    }
+
+    .imgHomeBike {
+        width: 20rem !important;
+        position: absolute;
+        right: 0;
+    }
+}
+
+img {
+    height: min-content;
+}
+
+.cartoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem 10rem 10rem 10rem;
+}
+
+.sla {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartoes div {
+    display: flex;
+    text-align: center;
+    padding-right: 10rem;
+}
+
+.imgHomeBike {
+    width: 27rem;
+    position: absolute;
+    right: 0;
+}
+
+span {
+    color: #01A1FC;
+}
