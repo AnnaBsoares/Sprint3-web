@@ -1,0 +1,12 @@
+.Pagamento  {
+    padding: 0rem 10rem 10rem 10rem;
+}
+
+.formaPag{
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin-block: 2rem;
+}

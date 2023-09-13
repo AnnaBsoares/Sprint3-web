@@ -1,0 +1,46 @@
+.CadastroBike {
+  padding: 0rem 10rem 10rem 10rem;
+}
+
+.inputBox input {
+  border: none;
+  background-color: #EDEDED;
+  width: 20rem;
+  padding-block: 15px;
+  padding-left: 20px;
+  font-size: large;
+  position: relative;
+  right: 20px;
+  border-radius: 10rem;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-block: 1rem;
+}
+
+.inputBox div {
+  background-color: #EDEDED;
+  border-radius: 10rem;
+}
+
+.Button {
+  transition: 0.2s;
+  border-radius: 10rem;
+  border: solid 3px #01A1FC;
+  width: 20rem;
+  position: relative;
+  right: 20px;
+  padding-block: 15px;
+  font-size: large;
+  background-color: #01A1FC;
+  color: white;
+  cursor: pointer;
+}
+
+.Button:hover {
+  transition: 0.2s;
+  background-color: white;
+  color: #01A1FC;
+}

@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+.CadastroBike{
+    margin-top: 300px;
+    margin-left: 600px;
+    font-family: 'Jost', sans-serif;
+}
+
+.TituloCadastroBike{
+margin-top: -80px;
+font-size: 20px;
+margin-left: -60px;
+
+}
+.TituloCadastroBike h2{
+color: #007BFF;
+margin-left: 250px;
+margin-top: -82px;
+font-size: 39px;
+}
+  form {
+    margin-left: -80px;
+    font-family: 'Jost', sans-serif;
+   
+  }
+  .input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #000000;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .7s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+.input-box {
+    position: relative;
+    width: 30%;
+    height: 50px;
+  
+    margin: 45px;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: #0a0909;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    background-color: #EDEDED;
+    border-radius: 15px;
+}
+  button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-left:120px ;
+    margin-top: 30px;
+    width: 200px;
+  
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  } */

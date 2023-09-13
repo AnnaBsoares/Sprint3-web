@@ -26,6 +26,17 @@ function Rodape() {
                         <li><a href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.portoseguro.com.br%2Ffale-conosco%2Fouvidoria">Ouvidoria</a></li>
                     </ul>
                 </div>
+
+                <div className='leftFooter'>
+                    <ul>
+                        <li>RM98057- Nicolas Eiti</li>
+                        <li>RM99814- Anna Beatriz Soares</li>
+                        <li>RM98588 -Eduarda Conesa</li>
+                        <li>RM99841- Marcel Prado</li>
+                        <li>RM98266- Mel Maia</li>
+                        <li>RM98021- Pedro Sena</li>
+                    </ul>
+                </div>
             </section>
         </>
     )

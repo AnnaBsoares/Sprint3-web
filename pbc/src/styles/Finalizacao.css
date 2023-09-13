@@ -1,0 +1,12 @@
+.Finalizacao    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.cnjImg {
+    margin-block: 5rem;
+}

@@ -1,0 +1,28 @@
+.Validacao{
+    padding: 0 10rem 10rem 10rem;
+}
+
+.Files  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Camera {
+    padding: 2rem;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+}
+
+.ConteudoValidacao  ul{
+    margin-block: 2rem;
+}
+
+.file   {
+    display: flex;
+    align-items: center;
+}
+
+.olhinho    {
+    margin-right: 1rem;
+}

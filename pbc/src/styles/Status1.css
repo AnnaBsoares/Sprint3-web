@@ -1,0 +1,37 @@
+.bolinhas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-block: 3rem;
+}
+
+.imgBike  {
+  position:absolute;
+}
+
+.pont1  {
+  position: absolute;
+  top: 210px;
+  left: 200px;
+  width: 85rem;
+  z-index: 0;
+  border-style: dashed;
+}
+
+.bo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.bo p:nth-child(1){
+  border-radius: 20rem;
+  background-color: #01A1FC;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  z-index: 1;
+}
+
+.imgBike  {
+  left: 270px;
+}
